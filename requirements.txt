@@ -1,0 +1,9 @@
+# Required packages for the agents in this repository
+# - openai: official OpenAI Python client
+# - pydantic: used for structured output validation (v2+ methods used)
+# - python-dotenv: to load .env files during local development
+
+openai>=1.0.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+requests
